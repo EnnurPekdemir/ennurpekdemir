@@ -93,21 +93,21 @@ document.addEventListener('DOMContentLoaded', () => {
       image: 'assets/images/floradoc.png',
       desc: 'FloraDoc, tarımsal üretimde karşılaşılan en büyük problemlerden biri olan mahsul hastalıklarını tespit etmek amacıyla geliştirilmiş yapay zeka destekli bir platformdur. Kullanıcılar (örneğin çiftçiler) domates yapraklarının fotoğraflarını sisteme yüklediğinde, derin öğrenme tabanlı Convolutional Neural Network (CNN) modelimiz görüntüyü saniyeler içinde analiz eder. Model, yapraktaki hastalık türünü (erken yanıklık, geç yanıklık, yaprak küfü vb.) veya sağlıklı olma durumunu yüksek doğruluk oranıyla tespit eder. Teşhisin ardından, hastalığın yayılmasını önleyecek biyolojik ve kimyasal tedavi yöntemleri ile alınabilecek kültürel önlemler detaylı bir şekilde raporlanır.',
       tech: ['Python', 'TensorFlow', 'Keras', 'CNN', 'OpenCV', 'Streamlit', 'Bitki Patolojisi'],
-      github: 'https://github.com'
+      github: 'https://github.com/EnnurPekdemir'
     },
     'credit-risk': {
       title: 'Credit Risk Analysis Platform',
       image: 'assets/images/credit-risk.png',
       desc: 'Bankacılık ve finans sektörü için geliştirilmiş yapay zeka tabanlı bu kredi risk değerlendirme platformu, kredi başvurusunda bulunan müşterilerin risk durumlarını analiz eder. Sistem; müşterinin geçmiş kredi ödeme alışkanlıkları, gelir-gider dengesi, varlıkları, borçluluk oranı ve demografik bilgileri gibi onlarca parametreyi makine öğrenmesi modelleriyle analiz ederek bir "Risk Skoru" üretir. Spring Boot ile tasarlanan yüksek performanslı backend servisleri, makine öğrenmesi API\'si ile entegre çalışarak karar destek sistemini besler. Yönetim paneli üzerinden detaylı veri görselleştirmeleri, risk dağılım grafikleri ve otomatik onay/red mekanizmaları sunulur.',
       tech: ['Java', 'Spring Boot', 'SQL', 'Scikit-Learn', 'Python API', 'RESTful Services', 'JPA / Hibernate'],
-      github: 'https://github.com'
+      github: 'https://github.com/EnnurPekdemir'
     },
     'recipe-sharing': {
       title: 'Recipe Sharing Platform',
       image: 'assets/images/recipe-sharing.png',
       desc: 'Lezzetli tariflerin paylaşıldığı ve yemek tutkunlarını bir araya getiren sosyal etkileşimli bir web platformudur. Spring Boot ve MySQL mimarisi üzerinde yükselen backend yapısı; kullanıcı kaydı ve güvenliği, dinamik tarif ekleme/düzenleme, resim yükleme ve gelişmiş arama filtreleme özelliklerini destekler. Kullanıcılar diğer tarifleri puanlayabilir, yorum yapabilir ve kendi tarif defterlerini oluşturabilirler. REST API yapısı sayesinde gelecekte mobil uygulamalarla entegre olmaya tamamen hazır, modüler ve güvenli bir altyapıya sahiptir.',
       tech: ['Spring Boot', 'Spring Security', 'MySQL', 'REST API', 'Thymeleaf', 'Bootstrap', 'Maven'],
-      github: 'https://github.com'
+      github: 'https://github.com/EnnurPekdemir'
     }
   };
 
